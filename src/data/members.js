@@ -1,40 +1,19 @@
-import {
-  FaMusic,
-  FaCloud,
-  FaCoffee,
-  FaHome
-} from "react-icons/fa";
 
-import {
-  GiPianoKeys,
-  GiDrumKit,
-  GiGuitar,
-} from "react-icons/gi";
-
-import myukiImg from "../assets/images/members/M-voiceacting.png";
-import ranmokiImg from "../assets/images/members/Ra-voiceacting.png";
-import rikuImg from "../assets/images/members/R-voiceacting.png";
-import totiImg from "../assets/images/members/T-voiceacitng.png";
-
-import myukiDeImg from "../assets/images/members/MCharacterDetails.png"
-import ranmokiDeImg from "../assets/images/members/RaCharacterDetails.png"
-import rikuDeImg from "../assets/images/members/RCharacterDetails.png"
-import totiDeImg from "../assets/images/members/TCharacterDetails.png"
-
+const imageBase ="../assets/images/members/";
 
 export const members = [
   {
     id: "myuki",
     name: "Myuki",
-    image: myukiImg,
-    detalisImg: myukiDeImg,
+    image: imageBase + "M-voiceacting.png",
+    detalisImg: imageBase + "MCharacterDetails.png",
     age: 30,
     instrument: "Piano",
-    instrumentIcon: GiPianoKeys,
+    instrumentIcon: "piano",
     color: "#E7C84E",
     secondaryColor : "#7AB8FF",
     hobby: "Baking",
-    pin: FaMusic,
+    pin: "music",
     favoriteFood: "Pizza",
     favoriteDrink: "Coffee",
     favoriteColor: "Yellow",
@@ -47,15 +26,15 @@ export const members = [
   {
     id: "ranmoki",
     name: "Ranmoki",
-    image: ranmokiImg,
-    detalisImg: ranmokiDeImg,
+    image: imageBase + "Ra-voiceacting.png",
+    detalisImg: imageBase + "RaCharacterDetails.png",
     age: 27,
     instrument: "Drums",
-    instrumentIcon: GiDrumKit,
+    instrumentIcon: "drum",
     color: "#63D9FF",
     secondaryColor : "#74E58B",
     hobby: "Gaming",
-    pin: FaCloud,
+    pin: "cloud",
     favoriteFood: "Chocolate Cake",
     favoriteColor: "Sky Blue",
     favoriteDrink: "Coffee",
@@ -68,15 +47,15 @@ export const members = [
   {
     id: "riku",
     name: "Riku",
-    image: rikuImg,
-    detalisImg: rikuDeImg,
+    image: imageBase + "R-voiceacting.png",
+    detalisImg: imageBase + "RCharacterDetails.png",
     age: 25,
     instrument: "Guitar",
-    instrumentIcon: GiGuitar,
+    instrumentIcon: "guitar",
     color: "#7A263A",
     secondaryColor : "#D9D9D9",
     hobby: "Coffee and Cup Collecting",
-    pin: FaCoffee,
+    pin: "coffee",
     favoriteFood: "Pizza",
     favoriteDrink: "Coffee",
     favoriteColor: "Burgundy",
@@ -89,15 +68,15 @@ export const members = [
   {
     id: "toti",
     name: "Toti",
-    image: totiImg,
-    detalisImg: totiDeImg,
+    image: imageBase + "T-voiceacting.png",
+    detalisImg: imageBase + "TCharacterDetails.png",
     age: 24,
     instrument: "Bass",
-    instrumentIcon: GiGuitar,
+    instrumentIcon: "guitar",
     color: "#B86DFF",
     secondaryColor : "#FF8DD8",
     hobby: "Programming",
-    pin: FaHome,
+    pin: "home",
     favoriteFood: "Chocolate Cake",
     favoriteColor: "Lavender",
     favoriteDrink: "Coffee",

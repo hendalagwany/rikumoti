@@ -1,25 +1,12 @@
-import new1 from "../assets/images/news/new1.png";
-import new2 from "../assets/images/news/new2.png";
-import new3 from "../assets/images/news/new3.png";
-import new4 from "../assets/images/news/new4.png";
-import new5 from "../assets/images/news/new5.png";
-import new6 from "../assets/images/news/new6.png";
-import new7 from "../assets/images/news/new7.png";
-import new8 from "../assets/images/news/new8.png";
-import new9 from "../assets/images/news/new9.png";
-import new10 from "../assets/images/news/new10.png";
-import new11 from "../assets/images/news/new11.png";
-import new12 from "../assets/images/news/new12.png";
-import new13 from "../assets/images/news/new13.png";
-import new14 from "../assets/images/news/new14.png";
 
+const imageBase = "../assets/images/news/";
 
 export const news = [
   {
   id: "1",
   title: "New Single Announced",
   date: "June 10, 2026",
-  image: new1,
+  image: imageBase + "new1.png",
   description:
     "Rikumoti announced a brand new single that will be released next month.",
   category: "Music",
@@ -34,7 +21,7 @@ export const news = [
   id: "2",
   title: "Summer Live Event",
   date: "July 15, 2026",
-  image: new2,
+  image: imageBase + "new2.png",
   description:
     "The group will perform at the Summer Stars Festival.",
   category: "Event",
@@ -49,7 +36,7 @@ export const news = [
   id: "3",
   title: "Voice Acting Collaboration",
   date: "August 2, 2026",
-  image: new3,
+  image: imageBase + "new3.png",
   description:
     "Several members will participate in a new anime project.",
   category: "Voice Acting",
@@ -64,7 +51,7 @@ export const news = [
   id: "4",
   title: "Behind-the-Scenes Studio Tour",
   date: "August 20, 2026",
-  image: new4,
+  image: imageBase + "new4.png",
   description:
     "Rikumoti shared a special behind-the-scenes video from their recording studio.",
   category: "Media",
@@ -79,7 +66,7 @@ export const news = [
   id: "5",
   title: "Official Fan Meeting Announced",
   date: "September 5, 2026",
-  image: new5,
+  image: imageBase + "new5.png",
   description:
     "The group will host their first official fan meeting with games and live performances.",
   category: "Event",
@@ -94,7 +81,7 @@ export const news = [
   id: "6",
   title: "Anime Convention Appearance",
   date: "September 18, 2026",
-  image: new6,
+  image: imageBase + "new6.png",
   description:
     "Rikumoti members will appear as special guests at a major anime convention.",
   category: "Event",
@@ -109,7 +96,7 @@ export const news = [
   id: "7",
   title: "Myuki Cast as Lead Heroine",
   date: "May 5, 2027",
-  image: new7,
+  image: imageBase + "new7.png",
   description:
     "Myuki has been selected as the lead voice actress for the upcoming fantasy anime 'Crystal Garden'.",
   category: "Voice Acting",
@@ -126,7 +113,7 @@ export const news = [
   id: "8",
   title: "Myuki Releases Piano Session Video",
   date: "May 20, 2027",
-  image: new8,
+  image: imageBase + "new8.png",
   description:
     "Fans were treated to a special video featuring Myuki performing a piano arrangement of a Rikumoti song.",
   category: "Music",
@@ -141,7 +128,7 @@ export const news = [
   id: "9",
   title: "Ranmoki Joins New Game Project",
   date: "June 2, 2027",
-  image: new9,
+  image: imageBase + "new9.png",
   description:
     "Ranmoki will voice one of the main characters in an upcoming action-adventure game.",
   category: "Voice Acting",
@@ -156,7 +143,7 @@ export const news = [
   id: "10",
   title: "Ranmoki Appears on Anime Radio Show",
   date: "June 18, 2027",
-  image: new10,
+  image: imageBase + "new10.png",
   description:
     "Ranmoki shared stories about recording sessions and her favorite anime roles.",
   category: "Interview",
@@ -171,7 +158,7 @@ export const news = [
   id: "11",
   title: "Riku Performs Solo Stage",
   date: "July 8, 2027",
-  image: new11,
+  image: imageBase + "new11.png",
   description:
     "Riku delivered a heartfelt solo performance during the group's summer concert.",
   category: "Music",
@@ -186,7 +173,7 @@ export const news = [
   id: "12",
   title: "Riku Featured in Music Magazine",
   date: "July 25, 2027",
-  image: new12,
+  image: imageBase + "new12.png",
   description:
     "A popular music magazine published an interview discussing Riku's creative process.",
   category: "Interview",
@@ -201,7 +188,7 @@ export const news = [
   id: "13",
   title: "Toti Launches Weekly Livestream",
   date: "August 4, 2027",
-  image: new13,
+  image: imageBase + "new13.png",
   description:
     "Toti started a weekly livestream series focused on anime, games, and fan interactions.",
   category: "Livestream",
@@ -216,7 +203,7 @@ export const news = [
   id: "14",
   title: "Toti Voices Genius Detective",
   date: "August 22, 2027",
-  image: new14,
+  image: imageBase + "new14.png",
   description:
     "Toti has been cast as the lead detective in the mystery anime 'Pixel Hearts'.",
   category: "Voice Acting",

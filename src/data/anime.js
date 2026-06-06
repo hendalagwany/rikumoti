@@ -1,16 +1,5 @@
-import anime1 from "../assets/images/anime/anime1.png";
-import anime2 from "../assets/images/anime/anime2.png";
-import anime3 from "../assets/images/anime/anime3.png";
-import anime4 from "../assets/images/anime/anime4.png";
-import anime5 from "../assets/images/anime/anime5.png";
-import anime6 from "../assets/images/anime/anime6.png";
-import anime7 from "../assets/images/anime/anime7.png";
-import anime8 from "../assets/images/anime/anime8.png";
-import anime9 from "../assets/images/anime/anime9.png";
-import anime10 from "../assets/images/anime/anime10.png";
-import anime11 from "../assets/images/anime/anime11.png";
-import anime12 from "../assets/images/anime/anime12.png";
 
+const imageBase = "../assets/images/anime/";
 
 export const animeProjects = [
   {
@@ -18,7 +7,7 @@ export const animeProjects = [
     title: "Dream Melody",
     role: "Opening Theme",
     year: 2026,
-    image: anime1,
+    image: imageBase + "anime1.png",
     description:
       "Rikumoti performed the opening song for the anime Dream Melody.",
 
@@ -33,7 +22,7 @@ export const animeProjects = [
     mainMember: "Rikumoti",
 
     popularityRank: 2,
-  
+
     story:
       "A group of students discover their passion for music and form a band that changes their lives."
   },
@@ -43,7 +32,7 @@ export const animeProjects = [
     title: "Sky Letters",
     role: "Ending Theme",
     year: 2025,
-    image: anime2,
+    image: imageBase + "anime2.png",
     description:
       "A soft emotional ending theme performed by Myuki and Riku.",
 
@@ -58,7 +47,7 @@ export const animeProjects = [
     mainMember: "Myuki",
 
     popularityRank: 4,
-   
+
     story:
       "Two distant souls communicate through mysterious letters that appear under the night sky."
   },
@@ -68,7 +57,7 @@ export const animeProjects = [
     title: "Pixel Hearts",
     role: "Insert Song",
     year: 2026,
-    image: anime3,
+    image: imageBase + "anime3.png",
     description:
       "An energetic insert song featuring Ranmoki and Toti.",
 
@@ -83,7 +72,7 @@ export const animeProjects = [
     mainMember: "Ranmoki",
 
     popularityRank: 1,
-  
+
     story:
       "In a digital world, players fight to restore balance between real and virtual reality."
   },
@@ -93,7 +82,7 @@ export const animeProjects = [
     title: "Crystal Garden",
     role: "Voice Cast & Opening Theme",
     year: 2027,
-    image: anime4,
+    image: imageBase + "anime4.png",
     description:
       "Myuki voiced the heroine Hana while Rikumoti performed the opening theme.",
 
@@ -108,7 +97,7 @@ export const animeProjects = [
     mainMember: "Myuki",
 
     popularityRank: 1,
-   
+
     story:
       "A magical garden where emotions turn into living flowers, and every flower holds a memory."
   },
@@ -118,7 +107,7 @@ export const animeProjects = [
     title: "Neon Rush",
     role: "Character Song",
     year: 2027,
-    image: anime5,
+    image: imageBase + "anime5.png",
     description:
       "Ranmoki performed a character song for the racer Akira.",
 
@@ -133,7 +122,7 @@ export const animeProjects = [
     mainMember: "Ranmoki",
 
     popularityRank: 3,
-   
+
     story:
       "A futuristic racing league where speed determines status and survival."
   },
@@ -143,7 +132,7 @@ export const animeProjects = [
     title: "Moonlight Symphony",
     role: "Ending Theme",
     year: 2026,
-    image: anime6,
+    image: imageBase + "anime6.png",
     description:
       "A piano-driven ending theme featuring vocals by Riku.",
 
@@ -158,159 +147,159 @@ export const animeProjects = [
     mainMember: "Riku",
 
     popularityRank: 5,
-   
+
     story:
       "A pianist tries to find the meaning of music after losing her inspiration."
   },
 
   {
-  id: "7",
-  title: "Cyber Quest",
-  role: "Voice Acting",
-  year: 2027,
-  image: anime7,
-  description:
-    "Toti voiced the genius hacker Mika in this futuristic adventure series.",
+    id: "7",
+    title: "Cyber Quest",
+    role: "Voice Acting",
+    year: 2027,
+    image: imageBase + "anime7.png",
+    description:
+      "Toti voiced the genius hacker Mika in this futuristic adventure series.",
 
-  episodes: 13,
-  status: "Completed",
-  season: "Summer 2027",
-  genre: ["Sci-Fi", "Mystery", "Adventure"],
-  studio: "Digital Core Studio",
+    episodes: 13,
+    status: "Completed",
+    season: "Summer 2027",
+    genre: ["Sci-Fi", "Mystery", "Adventure"],
+    studio: "Digital Core Studio",
 
-  contributionType: "Voice Acting",
-  membersInvolved: ["Toti"],
-  mainMember: "Toti",
+    contributionType: "Voice Acting",
+    membersInvolved: ["Toti"],
+    mainMember: "Toti",
 
-  popularityRank: 2,
-  
-  story:
-    "A virtual world begins to collapse, and a hacker group must uncover the truth behind its creation."
-},
+    popularityRank: 2,
 
-{
-  id: "8",
-  title: "Silent Seasons",
-  role: "Insert Song",
-  year: 2026,
-  image: anime8,
-  description:
-    "A heartfelt insert song used during the anime's emotional climax.",
+    story:
+      "A virtual world begins to collapse, and a hacker group must uncover the truth behind its creation."
+  },
 
-  episodes: 11,
-  status: "Completed",
-  season: "Fall 2026",
-  genre: ["Drama", "Romance", "Slice of Life"],
-  studio: "Blue Horizon Studio",
+  {
+    id: "8",
+    title: "Silent Seasons",
+    role: "Insert Song",
+    year: 2026,
+    image: imageBase + "anime8.png",
+    description:
+      "A heartfelt insert song used during the anime's emotional climax.",
 
-  contributionType: "Insert Song",
-  membersInvolved: ["Riku"],
-  mainMember: "Riku",
+    episodes: 11,
+    status: "Completed",
+    season: "Fall 2026",
+    genre: ["Drama", "Romance", "Slice of Life"],
+    studio: "Blue Horizon Studio",
 
-  popularityRank: 6,
-  
-  story:
-    "A story about letting go of the past and finding peace through music and memories."
-},
+    contributionType: "Insert Song",
+    membersInvolved: ["Riku"],
+    mainMember: "Riku",
 
-{
-  id: "9",
-  title: "Blazing Wings",
-  role: "Opening Theme",
-  year: 2027,
-  image: anime9,
-  description:
-    "A powerful rock-inspired opening performed by the full group.",
+    popularityRank: 6,
 
-  episodes: 24,
-  status: "Completed",
-  season: "Spring 2027",
-  genre: ["Action", "Fantasy", "Adventure"],
-  studio: "Nova Wings Studio",
+    story:
+      "A story about letting go of the past and finding peace through music and memories."
+  },
 
-  contributionType: "Opening Theme",
-  membersInvolved: ["Rikumoti"],
-  mainMember: "Myuki",
+  {
+    id: "9",
+    title: "Blazing Wings",
+    role: "Opening Theme",
+    year: 2027,
+    image: imageBase + "anime9.png",
+    description:
+      "A powerful rock-inspired opening performed by the full group.",
 
-  popularityRank: 1,
+    episodes: 24,
+    status: "Completed",
+    season: "Spring 2027",
+    genre: ["Action", "Fantasy", "Adventure"],
+    studio: "Nova Wings Studio",
 
-  story:
-    "A legendary battle between sky warriors protecting their world from destruction."
-},
+    contributionType: "Opening Theme",
+    membersInvolved: ["Rikumoti"],
+    mainMember: "Myuki",
 
-{
-  id: "10",
-  title: "Magic Academy",
-  role: "Character Song Collection",
-  year: 2027,
-  image: anime10,
-  description:
-    "Several members contributed songs for the anime's main characters.",
+    popularityRank: 1,
 
-  episodes: 12,
-  status: "Completed",
-  season: "Winter 2027",
-  genre: ["Fantasy", "Comedy", "School"],
-  studio: "StarLight Animation",
+    story:
+      "A legendary battle between sky warriors protecting their world from destruction."
+  },
 
-  contributionType: "Character Song Collection",
-  membersInvolved: ["Myuki", "Ranmoki", "Riku", "Toti"],
-  mainMember: "Riku",
+  {
+    id: "10",
+    title: "Magic Academy",
+    role: "Character Song Collection",
+    year: 2027,
+    image: imageBase + "anime10.png",
+    description:
+      "Several members contributed songs for the anime's main characters.",
 
-  popularityRank: 3,
+    episodes: 12,
+    status: "Completed",
+    season: "Winter 2027",
+    genre: ["Fantasy", "Comedy", "School"],
+    studio: "StarLight Animation",
 
-  story:
-    "A magical academy where students learn spells through music and emotions."
-},
+    contributionType: "Character Song Collection",
+    membersInvolved: ["Myuki", "Ranmoki", "Riku", "Toti"],
+    mainMember: "Riku",
 
-{
-  id: "11",
-  title: "Ocean Whispers",
-  role: "Ending Theme",
-  year: 2028,
-  image: anime11,
-  description:
-    "A calm and atmospheric ending song highlighting Myuki's gentle vocals.",
+    popularityRank: 3,
 
-  episodes: 12,
-  status: "Upcoming",
-  season: "Spring 2028",
-  genre: ["Fantasy", "Drama", "Romance"],
-  studio: "Azure Wave Studio",
+    story:
+      "A magical academy where students learn spells through music and emotions."
+  },
 
-  contributionType: "Ending Theme",
-  membersInvolved: ["Myuki"],
-  mainMember: "Myuki",
+  {
+    id: "11",
+    title: "Ocean Whispers",
+    role: "Ending Theme",
+    year: 2028,
+    image: imageBase + "anime11.png",
+    description:
+      "A calm and atmospheric ending song highlighting Myuki's gentle vocals.",
 
-  popularityRank: 4,
+    episodes: 12,
+    status: "Upcoming",
+    season: "Spring 2028",
+    genre: ["Fantasy", "Drama", "Romance"],
+    studio: "Azure Wave Studio",
 
-  story:
-    "A girl hears mysterious voices coming from the ocean that guide her destiny."
-},
+    contributionType: "Ending Theme",
+    membersInvolved: ["Myuki"],
+    mainMember: "Myuki",
 
-{
-  id: "12",
-  title: "Starlight Symphony",
-  role: "Opening Theme",
-  year: 2028,
-  image: anime12,
-  description:
-    "An orchestral opening theme inspired by the world of classical music.",
+    popularityRank: 4,
 
-  episodes: 13,
-  status: "Upcoming",
-  season: "Summer 2028",
-  genre: ["Music", "Drama", "Classical"],
-  studio: "Silver Note Studio",
+    story:
+      "A girl hears mysterious voices coming from the ocean that guide her destiny."
+  },
 
-  contributionType: "Opening Theme",
-  membersInvolved: ["Riku", "Rikumoti"],
-  mainMember: "Riku", 
+  {
+    id: "12",
+    title: "Starlight Symphony",
+    role: "Opening Theme",
+    year: 2028,
+    image: imageBase + "anime12.png",
+    description:
+      "An orchestral opening theme inspired by the world of classical music.",
 
-  popularityRank: 2,
+    episodes: 13,
+    status: "Upcoming",
+    season: "Summer 2028",
+    genre: ["Music", "Drama", "Classical"],
+    studio: "Silver Note Studio",
 
-  story:
-    "A young violinist discovers a symphony that connects human emotions across time."
-}
+    contributionType: "Opening Theme",
+    membersInvolved: ["Riku", "Rikumoti"],
+    mainMember: "Riku",
+
+    popularityRank: 2,
+
+    story:
+      "A young violinist discovers a symphony that connects human emotions across time."
+  }
 
 ];

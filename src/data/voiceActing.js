@@ -1,17 +1,5 @@
-import myukiImg from "../assets/images/voice/myuki-voice.png";
-import ranmokiImg from "../assets/images/voice/ranmoki-voice.png";
-import rikuImg from "../assets/images/voice/riku-voice.png";
-import totiImg from "../assets/images/voice/toti-voice.png";
 
-import myukiImg2 from "../assets/images/voice/myuki-voice2.png";
-import ranmokiImg2 from "../assets/images/voice/ranmoki-voice2.png";
-import rikuImg2 from "../assets/images/voice/riku-voice2.png";
-import totiImg2 from "../assets/images/voice/toti-voice2.png";
-
-import myukiImg3 from "../assets/images/voice/myuki-voice3.png";
-import ranmokiImg3 from "../assets/images/voice/ranmoki-voice3.png";
-import rikuImg3 from "../assets/images/voice/riku-voice3.png";
-import totiImg3 from "../assets/images/voice/toti-voice3.png";
+const imageBase = "../assets/images/voice/";
 
 export const voiceActingProjects = [
   {
@@ -19,7 +7,7 @@ export const voiceActingProjects = [
     member: "Myuki",
     character: "Airi",
     anime: "Dream Melody",
-    image: myukiImg,
+    image: imageBase + "myuki-voice.png",
 
     description:
       "A gentle and caring girl who always supports her friends.",
@@ -52,7 +40,7 @@ export const voiceActingProjects = [
     member: "Ranmoki",
     character: "Luna",
     anime: "Sky Fighters",
-    image: ranmokiImg,
+    image: imageBase + "ranmoki-voice.png",
 
     description:
       "An energetic pilot with a fearless personality.",
@@ -85,7 +73,7 @@ export const voiceActingProjects = [
     member: "Riku",
     character: "Mina",
     anime: "Moonlight Diary",
-    image: rikuImg,
+    image: imageBase + "riku-voice.png",
 
     description:
       "A calm student who expresses herself through music.",
@@ -118,7 +106,7 @@ export const voiceActingProjects = [
     member: "Toti",
     character: "Yuki",
     anime: "Pixel Hearts",
-    image: totiImg,
+    image: imageBase + "toti-voice.png",
 
     description:
       "A cheerful programmer who loves solving mysteries.",
@@ -152,7 +140,7 @@ export const voiceActingProjects = [
     member: "Myuki",
     character: "Hana",
     anime: "Crystal Garden",
-    image: myukiImg2,
+    image: imageBase + "myuki-voice2.png",
 
     description:
       "A shy florist who can communicate with magical creatures.",
@@ -181,7 +169,7 @@ export const voiceActingProjects = [
     member: "Myuki",
     character: "Serena",
     anime: "Ocean Whispers",
-    image: myukiImg3,
+    image: imageBase + "myuki-voice3.png",
 
     description:
       "A mysterious girl who protects the secrets of the sea.",
@@ -211,7 +199,7 @@ export const voiceActingProjects = [
     member: "Ranmoki",
     character: "Akira",
     anime: "Neon Rush",
-    image: ranmokiImg2,
+    image: imageBase + "ranmoki-voice2.png",
 
     description:
       "A talented racer who dreams of becoming the fastest in the city.",
@@ -240,7 +228,7 @@ export const voiceActingProjects = [
     member: "Ranmoki",
     character: "Rin",
     anime: "Blazing Wings",
-    image: ranmokiImg3,
+    image: imageBase + "ranmoki-voice3.png",
 
     description:
       "A brave warrior who never backs down from a challenge.",
@@ -270,7 +258,7 @@ export const voiceActingProjects = [
     member: "Riku",
     character: "Elena",
     anime: "Starlight Symphony",
-    image: rikuImg2,
+    image: imageBase + "riku-voice2.png",
 
     description:
       "A violin prodigy searching for the melody of her dreams.",
@@ -299,7 +287,7 @@ export const voiceActingProjects = [
     member: "Riku",
     character: "Noa",
     anime: "Silent Seasons",
-    image: rikuImg3,
+    image: imageBase + "riku-voice3.png",
 
     description:
       "A thoughtful writer who captures emotions in her stories.",
@@ -329,7 +317,7 @@ export const voiceActingProjects = [
     member: "Toti",
     character: "Mika",
     anime: "Cyber Quest",
-    image: totiImg2,
+    image: imageBase + "toti-voice2.png",
 
     description:
       "A genius hacker who protects the virtual world from threats.",
@@ -358,7 +346,7 @@ export const voiceActingProjects = [
     member: "Toti",
     character: "Emi",
     anime: "Magic Academy",
-    image: totiImg3,
+    image: imageBase + "toti-voice3.png",
 
     description:
       "An optimistic young mage who loves experimenting with spells.",

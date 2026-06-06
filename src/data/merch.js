@@ -1,16 +1,5 @@
-import product1 from "../assets/images/merch/product1.png";
-import product2 from "../assets/images/merch/product2.png";
-import product3 from "../assets/images/merch/product3.png";
-import product4 from "../assets/images/merch/product4.png";
-import product5 from "../assets/images/merch/product5.png";
-import product6 from "../assets/images/merch/product6.png";
-import product7 from "../assets/images/merch/product7.png";
-import product8 from "../assets/images/merch/product8.png";
-import product9 from "../assets/images/merch/product9.png";
-import product10 from "../assets/images/merch/product10.png";
-import product11 from "../assets/images/merch/product11.png";
-import product12 from "../assets/images/merch/product12.png";
 
+const imageBase = "../assets/images/merch/";
 
 export const merchItems = [
   {
@@ -20,7 +9,7 @@ export const merchItems = [
     price: "$25",
     stock: "In Stock",
     releaseDate: "June 2026",
-    image: product1,
+    image: imageBase +"product1.png",
     description:
       "The first official Rikumoti album featuring the group's most beloved songs and exclusive bonus tracks."
   },
@@ -32,7 +21,7 @@ export const merchItems = [
     price: "$20",
     stock: "In Stock",
     releaseDate: "May 2026",
-    image: product2,
+    image: imageBase +"product2.png",
     description:
       "Comfortable cotton T-shirt featuring the official Rikumoti logo and member-inspired design."
   },
@@ -44,7 +33,7 @@ export const merchItems = [
     price: "$15",
     stock: "Limited Stock",
     releaseDate: "July 2026",
-    image: product3,
+    image: imageBase +"product3.png",
     description:
       "A complete acrylic stand collection featuring all four Rikumoti members."
   },
@@ -56,7 +45,7 @@ export const merchItems = [
     price: "$18",
     stock: "In Stock",
     releaseDate: "August 2026",
-    image: product4,
+    image: imageBase +"product4.png",
     description:
       "A special photobook packed with exclusive illustrations, behind-the-scenes photos, and member interviews."
   },
@@ -68,7 +57,7 @@ export const merchItems = [
     price: "$22",
     stock: "In Stock",
     releaseDate: "September 2026",
-    image: product5,
+    image: imageBase +"product5.png",
     description:
       "Official Rikumoti light stick designed for concerts and live performances."
   },
@@ -80,7 +69,7 @@ export const merchItems = [
     price: "$12",
     stock: "In Stock",
     releaseDate: "June 2026",
-    image: product6,
+    image: imageBase +"product6.png",
     description:
       "A cute keychain collection inspired by Myuki, Ranmoki, Riku, and Toti."
   },
@@ -92,7 +81,7 @@ export const merchItems = [
     price: "$40",
     stock: "Limited Stock",
     releaseDate: "October 2026",
-    image: product7,
+    image: imageBase +"product7.png",
     description:
       "Premium hoodie with embroidered Rikumoti branding and a comfortable oversized fit."
   },
@@ -104,7 +93,7 @@ export const merchItems = [
     price: "$15",
     stock: "In Stock",
     releaseDate: "July 2026",
-    image: product8,
+    image: imageBase +"product8.png",
     description:
       "Official concert towel featuring colorful member artwork and event branding."
   },
@@ -116,7 +105,7 @@ export const merchItems = [
     price: "$8",
     stock: "In Stock",
     releaseDate: "June 2026",
-    image: product9,
+    image: imageBase +"product9.png",
     description:
       "A set of collectible badges showcasing unique illustrations of each member."
   },
@@ -128,7 +117,7 @@ export const merchItems = [
     price: "$6",
     stock: "In Stock",
     releaseDate: "May 2026",
-    image: product10,
+    image: imageBase +"product10.png",
     description:
       "Decorative sticker pack containing member icons, logos, and special artwork."
   },
@@ -140,7 +129,7 @@ export const merchItems = [
     price: "$28",
     stock: "Limited Stock",
     releaseDate: "November 2026",
-    image: product11,
+    image: imageBase +"product11.png",
     description:
       "A collection of adorable mini plush mascots inspired by the members of Rikumoti."
   },
@@ -152,7 +141,7 @@ export const merchItems = [
     price: "$10",
     stock: "In Stock",
     releaseDate: "June 2026",
-    image: product12,
+    image: imageBase +"product12.png",
     description:
       "A high-quality postcard collection featuring beautiful artwork and group illustrations."
   }

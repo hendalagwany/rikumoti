@@ -1,13 +1,38 @@
 import { useParams } from "react-router-dom";
 import { members } from "../data/members";
+import {
+  FaMusic,
+  FaCloud,
+  FaCoffee,
+  FaHome
+} from "react-icons/fa";
+
+const memberIcons={
+music: FaMusic,
+cloud: FaCloud,
+coffee:FaCoffee,
+home:FaHome
+};
+
+import {
+  GiPianoKeys,
+  GiDrumKit,
+  GiGuitar,
+} from "react-icons/gi";
+
+const instrumentIcons = {
+  piano: GiPianoKeys,
+  drum:GiDrumKit,
+  guitar:GiGuitar
+};
 
 function MemberDetails() {
     const { id } = useParams();
     const member = members.find((m) => m.id === id);
 
     const textStyle = { color: member.secondaryColor, opacity: 0.9 };
-    const InstrumentIcon = member.instrumentIcon;
-    const PinIcon = member.pin;
+    const InstrumentIcon =instrumentIcons[ member.instrumentIcon];
+    const PinIcon = memberIcons[member.pin];
 
     if (!member) return <h1>Member not found</h1>;
 
